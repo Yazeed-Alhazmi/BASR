@@ -166,7 +166,7 @@ This allows you to simulate the system behavior and test the detection model eas
 
 Simply enter the input source in your Streamlit app:
 - A single image: `"/path/to/your/image.jpg"`
-- A folder of images: `"/path/to/your/images_folder/"`
+- A folder of images: `"/path/to/your/images_folder"`
 
 The detection model will process the provided images just like it would
 
