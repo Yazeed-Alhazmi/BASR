@@ -96,7 +96,7 @@ BASR model results:
   </div>
 </div>
 
-<h2>Download the Trained Model</h2>
+<h2>Download BASR Model</h2>
 
 You can download the trained model using one of the following methods:
 
@@ -124,5 +124,5 @@ To set up and run the full BASR system, you will need the following components:
   `rtmp://localhost/live/key`
 
 #### 3. Model and Detection System
-- Download the trained YOLOv8 model following the instructions in the [Downloading the Trained Model](#-downloading-the-trained-model) section.
+- Download BASR model following the instructions in the [Download BASR Model](#-Download-BASR-Model) section.
 - Clone this repository and install the required dependencies:
