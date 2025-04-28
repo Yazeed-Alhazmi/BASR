@@ -38,5 +38,14 @@ rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("basr").project("basr_v1")
 version = project.version(1)
 dataset = version.download("yolov11m") # Or any yolo version
+
+#Test dataset:
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YOUR_API_KEY")
+project = rf.workspace("basr").project("basr_test")
+version = project.version(12)
+dataset = version.download("yolov11m") # Or any yolo version
 ```
 
