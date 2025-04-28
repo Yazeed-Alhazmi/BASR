@@ -76,4 +76,4 @@ Each model was evaluated based on:<br>
 | YOLOv11m |  0.682  |     0.338    |   0.70   |          10.7    
 
 <br>
-- **YOLOv11m** achieved the highest **mAP@0.5**, **mAP@0.5:0.95**, and **F1 Score**, making it the best model for deployment despite slightly higher inference time.
+- <b>YOLOv11m</b> achieved the highest mAP@0.5, mAP@0.5:0.95, and F1 Score, making it the best model for deployment despite slightly higher inference time.
