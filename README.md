@@ -64,7 +64,7 @@ After preparing the dataset, we experimented with training multiple YOLO models 
 Each model was evaluated based on:<br>
 - <b>Mean Average Precision:</b> mAP@0.5 and mAP@0.5:0.95<br>
 - <b>F1 Score</b><br>
-- <b>Inference speed</b> (Image/ms)<br>
+- <b>Inference speed</b> (ms/image)<br>
 
 
 
