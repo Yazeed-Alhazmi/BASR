@@ -101,9 +101,9 @@ BASR model results:
 You can download the trained model using one of the following methods:
 
 - **Direct download link**:  
-  [Download Model from Google Drive](https://drive.google.com/file/d/1iqVWjKo9MUc5R6eutrZXSccOUCC9IAav/view?usp=sharing)
+  Download model from this [link](https://drive.google.com/file/d/1iqVWjKo9MUc5R6eutrZXSccOUCC9IAav/view?usp=share_link)
 
-- **Using this command in Colab or your local terminal**:
+- **Using this command in Colab or your terminal**:
 
 ```bash
 !gdown 1iqVWjKo9MUc5R6eutrZXSccOUCC9IAav
