@@ -139,7 +139,7 @@ streamlit run BASR_ST_Website.py
 - You will get this interface:
 <div style="display: flex; gap: 20px; justify-content: flex-start;">
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/b868bd14-5a4f-4f29-aecf-9c1c4c5f0dbd" alt="BASR Interface" width="1200"/>
+    <img src="https://github.com/user-attachments/assets/b868bd14-5a4f-4f29-aecf-9c1c4c5f0dbd" alt="BASR Interface" width="900"/>
     <p>BASR Interface</p>
   </div>
 </div>
@@ -153,3 +153,8 @@ streamlit run BASR_ST_Website.py
     <p>BASR Interface After Detection</p>
   </div>
 </div>
+
+#### Notes:
+- Ensure the RTMP server is running before starting the Streamlit app
+- Make sure the drone is sending the stream to the RTMP server
+- For testing without a drone, you can provide an image or a folder with images path to as the RTMP URL.
