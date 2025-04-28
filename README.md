@@ -124,5 +124,5 @@ To set up and run the full BASR system, you will need the following components:
   `rtmp://localhost/live/key`
 
 #### 3. Model and Detection System
-- Download BASR model following the instructions in the [Download BASR Model](#Download-BASR-Model) section.
+- Download BASR model following the instructions in the [Download BASR Model](https://github.com/Yazeed-Alhazmi/BASR/blob/main/README.md#download-basr-model) section.
 - Clone this repository and install the required dependencies:
