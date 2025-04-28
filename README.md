@@ -111,6 +111,13 @@ You can download the trained model using one of the following methods:
 
 <h2>Try BASR</h2>
 
+<div style="display: flex; gap: 20px; justify-content: flex-start;">
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/d3660f72-b5a0-4673-80e6-4bfbb951008f" alt="BASR Full System" width="600"/>
+    <p>BASR Full System</p>
+  </div>
+</div>
+
 To set up and run the full BASR system, you will need the following components:
 
 #### 1. Drone Setup
