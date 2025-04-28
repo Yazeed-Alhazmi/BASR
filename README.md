@@ -26,14 +26,15 @@ By combining a drone equipped with a high-resolution camera and an object detect
   - <b>RTMP Server:</b> Acts as the bridge between the drone and the detection system.<br>
   - <b>Detection Model:</b> A YOLOv11m model processes incoming frames in real time.<br>
   - <b>Website (Streamlit Interface):</b> Allows the rescue team to interact with the system, Displays detected individuals, manages the RTMP stream connection, and shows the top detected frames.<br>
-  The dataset is too large to be included here. You can download it using the following code:
-  Training dataset:
-      !pip install roboflow
-      
-      from roboflow import Roboflow
-      rf = Roboflow(api_key="YOUR_API_KEY")
-      project = rf.workspace("basr").project("basr_v1")
-      version = project.version(1)
-      dataset = version.download("yolov11m") # Or any yolo version
+  Due to their large size, you can download both datasets using the following code:
+'''python
+#Training dataset:
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YOUR_API_KEY")
+project = rf.workspace("basr").project("basr_v1")
+version = project.version(1)
+dataset = version.download("yolov11m") # Or any yolo version
 
 
