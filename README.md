@@ -96,16 +96,34 @@ BASR model results:
   </div>
 </div>
 
+<h2>Download the Trained Model</h2>
+
+You can download the trained model using one of the following methods:
+
+- **Direct download link**:  
+  [Download Model from Google Drive](https://drive.google.com/file/d/1iqVWjKo9MUc5R6eutrZXSccOUCC9IAav/view?usp=sharing)
+
+- **Using this command in Colab or your local terminal**:
+
+```bash
+!gdown 1iqVWjKo9MUc5R6eutrZXSccOUCC9IAav
+```
+
 
 <h2>Try BASR</h2>
 
 To set up and run the full BASR system, you will need the following components:
 
----
-
 #### 1. Drone Setup
 - Use a drone equipped with a 1080p+ camera.
 - Configure the drone to stream live video to an RTMP server.
-- Make sure the drone provides GPS telemetry if you want to integrate location tracking.
 
----
+#### RTMP Server Setup
+- Install a local RTMP server to receive the live video feed.
+- We recommend using this [RTMP server](https://github.com/sallar/mac-local-rtmp-server).
+- After installing and starting the server, your RTMP address will typically be:  
+  `rtmp://localhost/live/key`
+
+#### 3. Model and Detection System
+- Download the trained YOLOv8 model following the instructions in the [Downloading the Trained Model](#-downloading-the-trained-model) section.
+- Clone this repository and install the required dependencies:
