@@ -49,3 +49,17 @@ version = project.version(12)
 dataset = version.download("yolov11m") # Or any yolo version
 ```
 
+<h2>Training Stage</h2>
+After preparing the dataset, we experimented with training multiple YOLO models to determine the best-performing one for our application.
+
+- <b>Trained Models:</b> YOLOv8n, YOLOv8m, YOLOv11n, YOLOv11m<br>
+- <b>Optimizer:</b> AdamW<br>
+- <b>Epochs:</b> 100<br>
+- <b>Batch Size:</b> 16<br>
+- <b>Framework:</b> <a href="https://docs.ultralytics.com">Ultralytics</a><br>
+- <b>Environment:</b> <a href="https://colab.research.google.com">Google Colab</a><br>
+
+<h2>Validation and Results</h2>
+Each model was evaluated based on:
+
+
