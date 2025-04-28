@@ -6,8 +6,8 @@ By combining a drone equipped with a high-resolution camera and an object detect
 
 <h2>System Overview</h2>
 - <b>Drone:</b><br>
-   * Captures real-time 1080p 30FPS aerial video using a high-resolution camera.
-   * Streams the live video feed to the ground system via an RTMP protocol.
+   - Captures real-time 1080p 30FPS aerial video using a high-resolution camera.<br>
+   - Streams the live video feed to the ground system via an RTMP protocol.<br>
    
 - <b>Ground System:</b><br>
   - <b>RTMP Server:</b> Acts as the bridge between the drone and the detection system.<br>
