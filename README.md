@@ -61,5 +61,16 @@ After preparing the dataset, we experimented with training multiple YOLO models 
 
 <h2>Validation and Results</h2>
 Each model was evaluated based on:
+- <b>Mean Average Precision:</b> mAP@0.5 and mAP@0.5:0.95<br>
+- <b>F1 Score</b><br>
+- <b>Inference speed</b> (Image/ms)<br>
 
+After training multiple YOLO models, we evaluated each model's performance using standard object detection metrics:
+
+| Model    | mAP@0.5 | mAP@0.5:0.95 | F1 Score | Inference Time (ms/image) |
+|:---------|:-------:|:------------:|:--------:|:-------------------------:|
+| YOLOv8n  |  0.641  |     0.279    |   0.66   |           1.7             |
+| YOLOv8m  |  0.664  |     0.327    |   0.69   |           9.8             |
+| YOLOv11n |  0.612  |     0.267    |   0.65   |           1.8             |
+| YOLOv11m |  0.682  |     0.338    |   0.70   |          10.7    
 
