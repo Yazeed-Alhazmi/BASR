@@ -157,4 +157,22 @@ streamlit run BASR_ST_Website.py
 #### Notes:
 - Ensure the RTMP server is running before starting the Streamlit app
 - Make sure the drone is sending the stream to the RTMP server
-- For testing without a drone, you can provide an image or a folder with images path to as the RTMP URL.
+
+<h2>Try BASR without a drone</h2>
+
+For testing the BASR system without a drone, you can provide an **image path** or a **folder path containing images** instead of an RTMP URL.
+
+This allows you to simulate the system behavior and test the detection model easily without requiring a live video stream.
+
+Simply enter the input source in your Streamlit app:
+- A single image: `"/path/to/your/image.jpg"`
+- A folder of images: `"/path/to/your/images_folder/"`
+
+The detection model will process the provided images just like it would
+
+<div style="display: flex; gap: 20px; justify-content: flex-start;">
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/977abba6-9ca2-4b3f-8291-edf6b0ae089c" alt="BASR Interface after detection using an image folder" width="900"/>
+    <p>BASR Interface After Detection Using A Folder of Images</p>
+  </div>
+</div>
