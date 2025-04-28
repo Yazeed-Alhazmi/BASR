@@ -18,7 +18,7 @@ By combining a drone equipped with a high-resolution camera and an object detect
 <h2>Dataset Preparation Stage</h2>
 
 - <b>Dataset:</b> drone images filtered to contain only the "person" class.<br>
-- <b>Tool:</b> <a href="Google.com">Roboflow</a> was used for labeling, augmentation, and splitting into training/validation sets.<br>
+- <b>Tool:</b> <a href="https://app.roboflow.com/">Roboflow</a> was used for labeling, augmentation, and splitting into training/validation sets.<br>
 
    
 - <b>Ground System:</b><br>
