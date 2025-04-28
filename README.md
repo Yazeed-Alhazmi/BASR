@@ -65,7 +65,7 @@ Each model was evaluated based on:
 - <b>F1 Score</b><br>
 - <b>Inference speed</b> (Image/ms)<br>
 
-After training multiple YOLO models, we evaluated each model's performance using standard object detection metrics:
+
 
 | Model    | mAP@0.5 | mAP@0.5:0.95 | F1 Score | Inference Time (ms/image) |
 |:---------|:-------:|:------------:|:--------:|:-------------------------:|
@@ -74,3 +74,5 @@ After training multiple YOLO models, we evaluated each model's performance using
 | YOLOv11n |  0.612  |     0.267    |   0.65   |           1.8             |
 | YOLOv11m |  0.682  |     0.338    |   0.70   |          10.7    
 
+<br>
+- **YOLOv11m** achieved the highest **mAP@0.5**, **mAP@0.5:0.95**, and **F1 Score**, making it the best model for deployment despite slightly higher inference time.
