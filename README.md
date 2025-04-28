@@ -77,5 +77,11 @@ Each model was evaluated based on:<br>
 
 <br>
 <b>Selected BASR model:</b><br>
-   - <b>YOLOv11m</b> achieved the highest mAP@0.5, mAP@0.5:0.95, and F1 Score, making it the best model for deployment despite slightly higher inference time.
+<b>YOLOv11m</b> achieved the highest mAP@0.5, mAP@0.5:0.95, and F1 Score, making it the best model for deployment despite slightly higher inference time.<br>
+
+BASR model results:
+
+![results-3](https://github.com/user-attachments/assets/352af93b-4af6-401e-978d-f86ccaf149d4)
+![confusion_matrix_normalized (1)](https://github.com/user-attachments/assets/269a2542-ad6a-4573-9bf6-70f62158f7dc)
+![Untitled design-3](https://github.com/user-attachments/assets/201556d7-ae52-4104-aa36-e80af412978e)
 
