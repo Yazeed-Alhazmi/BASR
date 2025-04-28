@@ -83,18 +83,18 @@ BASR model results:
 
 <div style="display: flex; gap: 20px; justify-content: flex-start;">
   <div align="center">
-    <h3>Results during training</h3>
     <img src="https://github.com/user-attachments/assets/352af93b-4af6-401e-978d-f86ccaf149d4" alt="Training results" width="600"/>
     <p>Results during training</p>
   </div>
   <div align="center">
-    <h3>Confusion matrix</h3>
     <img src="https://github.com/user-attachments/assets/269a2542-ad6a-4573-9bf6-70f62158f7dc" alt="Confusion matrix" width="600"/>
     <p>Confusion matrix</p>
   </div>
      <div align="center">
-    <h3>Field test</h3>
     <img src="https://github.com/user-attachments/assets/201556d7-ae52-4104-aa36-e80af412978e" alt="Field test" width="600"/>
     <p>Field test</p>
   </div>
 </div>
+<br>
+
+
