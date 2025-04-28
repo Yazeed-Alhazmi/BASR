@@ -95,6 +95,17 @@ BASR model results:
     <p>Field test</p>
   </div>
 </div>
-<br>
 
 
+<h2>Try BASR</h2>
+
+To set up and run the full BASR system, you will need the following components:
+
+---
+
+### 1. Drone Setup
+- Use a drone equipped with a 1080p+ camera.
+- Configure the drone to stream live video to an RTMP server.
+- Make sure the drone provides GPS telemetry if you want to integrate location tracking.
+
+---
