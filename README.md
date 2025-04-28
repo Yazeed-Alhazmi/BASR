@@ -60,7 +60,8 @@ After preparing the dataset, we experimented with training multiple YOLO models 
 - <b>Environment:</b> <a href="https://colab.research.google.com">Google Colab</a><br>
 
 <h2>Validation and Results</h2>
-Each model was evaluated based on:
+
+Each model was evaluated based on:<br>
 - <b>Mean Average Precision:</b> mAP@0.5 and mAP@0.5:0.95<br>
 - <b>F1 Score</b><br>
 - <b>Inference speed</b> (Image/ms)<br>
