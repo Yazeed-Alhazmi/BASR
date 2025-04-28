@@ -29,7 +29,7 @@ By combining a drone equipped with a high-resolution camera and an object detect
   
   Due to their large size, you can download both datasets using the following code:
   
-```
+```python
 #Training dataset:
 !pip install roboflow
 
@@ -100,8 +100,7 @@ BASR model results:
 
 You can download the trained model using one of the following methods:
 
-- **Direct download link**:  
-  Download model from this [link](https://drive.google.com/file/d/1iqVWjKo9MUc5R6eutrZXSccOUCC9IAav/view?usp=share_link)
+- **Direct download** [link](https://drive.google.com/file/d/1iqVWjKo9MUc5R6eutrZXSccOUCC9IAav/view?usp=share_link)  
 
 - **Using this command in Colab or your terminal**:
 
