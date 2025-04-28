@@ -124,5 +124,32 @@ To set up and run the full BASR system, you will need the following components:
   `rtmp://localhost/live/key`
 
 #### 3. Model and Detection System
-- Download BASR model following the instructions in the [Download BASR Model](https://github.com/Yazeed-Alhazmi/BASR/blob/main/README.md#download-basr-model) section.
+- Download BASR model following the instructions in the **Download BASR Model** section.
 - Clone this repository and install the required dependencies:
+```bash
+git clone https://github.com/Yazeed-Alhazmi/BASR.git
+cd BASR
+pip install -r requirements.txt
+```
+
+- Start the detection system using Streamlit:
+```bash
+streamlit run BASR_ST_Website.py
+```
+- You will get this interface:
+<div style="display: flex; gap: 20px; justify-content: flex-start;">
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/b868bd14-5a4f-4f29-aecf-9c1c4c5f0dbd" alt="BASR Interface" width="600"/>
+    <p>BASR Interface</p>
+  </div>
+</div>
+
+- Enter your RTMP URL, required detection time, and folder name (detected frames will be saved to this folder).
+
+- After detection, you will see the top 9 detected frames in term of accuracy as we see here:
+<div style="display: flex; gap: 20px; justify-content: flex-start;">
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/229977fe-6c5d-41bc-9cee-c3903cdb8564" alt="BASR Interface after detection" width="600"/>
+    <p>BASR Interface After Detection</p>
+  </div>
+</div>
