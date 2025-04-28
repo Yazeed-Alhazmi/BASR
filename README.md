@@ -5,6 +5,7 @@ This project implements a drone-based AI system to assist in search and rescue (
 By combining a drone equipped with a high-resolution camera and an object detection model (YOLOv11m), BASR enhances traditional rescue missions with real-time detection
 
 <h2>System Overview</h2>
+
 - <b>Drone:</b><br>
    - Captures real-time 1080p 30FPS aerial video using a high-resolution camera.<br>
    - Streams the live video feed to the ground system via an RTMP protocol.<br>
