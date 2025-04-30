@@ -124,7 +124,7 @@ To set up and run the full BASR system, you will need the following components:
 - Use a drone equipped with a 1080p+ camera.
 - Configure the drone to stream live video to an RTMP server.
 
-#### RTMP Server Setup
+#### 2. RTMP Server Setup
 - Install a local RTMP server to receive the live video feed.
 - We recommend using this [RTMP server](https://github.com/sallar/mac-local-rtmp-server).
 - After installing and starting the server, your RTMP address will typically be:  
