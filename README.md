@@ -161,9 +161,6 @@ streamlit run BASR_ST_Website.py
   </div>
 </div>
 
-#### Notes:
-- Ensure the RTMP server is running before starting the Streamlit app
-- Make sure the drone is sending the stream to the RTMP server
 
 <h2>Try BASR without a drone</h2>
 
