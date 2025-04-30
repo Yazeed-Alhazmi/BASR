@@ -17,7 +17,7 @@ By combining a drone equipped with a high-resolution camera and an object detect
 
 <h2>Dataset Preparation Stage</h2>
 
-- <b>Dataset:</b> drone images filtered to contain only the "person" class.<br>
+- <b>Dataset:</b> drone images filtered to contain only the "person" class from [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) dataset.<br>
 - <b>Tool:</b> <a href="https://app.roboflow.com">Roboflow</a> was used for labeling, augmentation, and splitting into training/validation sets.<br>
 - <b>Training dataset:</b> 5,351 training images + 436 validation images.<br>
 - <b>test dataset:</b> 100 test images selected to cover all possible scenarios.<br>
