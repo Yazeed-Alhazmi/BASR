@@ -73,7 +73,7 @@ Each model was evaluated based on:<br>
 | YOLOv8n  |  0.641  |     0.279    |   0.66   |           1.7             |
 | YOLOv8m  |  0.664  |     0.327    |   0.69   |           9.8             |
 | YOLOv11n |  0.612  |     0.267    |   0.65   |           1.8             |
-| YOLOv11m |  0.682  |     0.338    |   0.70   |          10.7    
+| YOLOv11m |  0.682  |     0.338    |   0.71   |          10.7    
 
 <br>
 <b>Selected BASR model:</b><br>
