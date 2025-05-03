@@ -10,7 +10,7 @@ st.set_page_config(page_title="BASR", page_icon="", layout="centered")
 st.markdown("<h1 style='text-align: center; color: #778da9;'>BASR</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center; color: #415a77; margin-top: -25px; margin-bottom: 60px;'>Broad Assistant Search and Rescue</h5>", unsafe_allow_html=True)
 
-st.logo("taibah_logo.png", size='large', link='https://www.taibahu.edu.sa')
+st.logo(".streamlit/taibah_logo.png", size='large', link='https://www.taibahu.edu.sa')
 st.html("""
         <style>
             [alt=Logo] {
