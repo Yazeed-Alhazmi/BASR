@@ -3,7 +3,7 @@ from ultralytics import YOLO
 from PIL import Image
 import time
 import os
-from BASR_M import BASR_Model
+from BASR_Detection import BASR_Model
 
 
 st.set_page_config(page_title="BASR", page_icon="", layout="centered")
