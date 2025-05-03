@@ -45,10 +45,10 @@ dataset = version.download("yolov11m") # Or any yolo version
 from roboflow import Roboflow
 rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("basr").project("basr_test")
-version = project.version(12)
+version = project.version(1)
 dataset = version.download("yolov11m") # Or any yolo version
 ```
-
+                
 <h2>Training Stage</h2>
 After preparing the dataset, we experimented with training multiple YOLO models to determine the best-performing one for our application.
 
