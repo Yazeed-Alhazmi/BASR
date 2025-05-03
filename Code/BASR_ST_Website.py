@@ -24,11 +24,7 @@ rtmp_url = st.text_input("Enter RTMP stream URL:", placeholder="rtmp://127.0.0.1
 detection_time = st.number_input("Set detection duration (in seconds):", min_value=5, max_value=10000, value=10, step=5)
 folder_name = st.text_input("Enter Folder Name:", placeholder="SAR_Mission_001")
 
-# Placeholder for video frame
-image_placeholder = st.empty()
-
 # Button to start prediction
-
 if st.button("Start Detection"):
     
     if not rtmp_url:
